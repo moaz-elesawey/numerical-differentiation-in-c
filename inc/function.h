@@ -5,7 +5,7 @@
 
 // you can change the type of dtype to be float or long double
 typedef double dtype;
-
+t 
 /* Here you can define your function and it's parameters,
  * but with some constrains which are:
  *  - the function name should be (f).
@@ -17,7 +17,6 @@ dtype f(dtype x) {
 
     /*add your function body here*/
     y = sin(x);
-    y = pow(x, 2) * sin(2*x) * exp(-pow(x, 4)) ;
 
     return y;
 }

@@ -9,6 +9,12 @@ $ make clean
 $ make all
 ```
 
+## Info
+in `inc/function.h` you can the `f(x)` to you own function with some contrains:
+ 1. the function name should be `(f)`.
+ 2. the function only take one parameter which `x` as `f(x)`
+ 3. the function parameter and return value of type `(dtype)`
+
 ## Run
 ```sh
 $ ./bin/NumericalDiff.exe
